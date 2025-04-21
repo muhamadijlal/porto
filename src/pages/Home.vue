@@ -14,59 +14,59 @@ const projects = [
     {
         id: 1,
         urlProject: '#',
-        imgPath: '/src/assets/images/balancheckapp.png',
+        imgPath: '/assets/images/balancheckapp.png',
         title: 'Balance Check Dashboard',
         description:
             'The Balance Check application is designed to monitor and track the balance at each Jasamarga toll road section and gate. This tool provides real-time visibility into the financial status of each segment, allowing users to easily verify and manage toll balances across multiple gates. By centralizing balance data, the application helps ensure accuracy and efficiency in toll collection, facilitating better financial oversight and decision-making for toll road operations.',
         createdYear: '2025',
         stacks: [
-            { id: 1, url: '/src/assets/images/laravel.svg' },
-            { id: 2, url: '/src/assets/images/livewire.svg' },
-            { id: 3, url: '/src/assets/images/tailwindcss.svg' },
-            { id: 4, url: '/src/assets/images/mysql.svg' },
+            { id: 1, url: '/assets/images/laravel.svg' },
+            { id: 2, url: '/assets/images/livewire.svg' },
+            { id: 3, url: '/assets/images/tailwindcss.svg' },
+            { id: 4, url: '/assets/images/mysql.svg' },
         ],
     },
     {
         id: 2,
         urlProject: '#',
-        imgPath: '/src/assets/images/datawarehouse.png',
+        imgPath: '/assets/images/datawarehouse.png',
         title: 'Data Warehouse Mediasi Dashboard',
         description:
             'The Data Warehouse Dashboard application is designed to aggregate and visualize data from various databases across different areas. This tool enables users to monitor real-time data from multiple gates along each Jasamarga tollroad  section, with customizable filters to analyze specific datasets. By leveraging centralized data from multiple sources, the dashboard provides a comprehensive view of key performance indicators, ensuring efficient monitoring and decision-making processes. The application enhances visibility into the performance of each gate and segment, supporting operational efficiency and strategic planning.',
         createdYear: '2025',
         stacks: [
-            { id: 1, url: '/src/assets/images/laravel.svg' },
-            { id: 2, url: '/src/assets/images/tailwindcss.svg' },
-            { id: 3, url: '/src/assets/images/mysql.svg' },
+            { id: 1, url: '/assets/images/laravel.svg' },
+            { id: 2, url: '/assets/images/tailwindcss.svg' },
+            { id: 3, url: '/assets/images/mysql.svg' },
         ],
     },
     {
         id: 3,
         urlProject: '#',
-        imgPath: '/src/assets/images/servicedatawarehouse.jpg',
+        imgPath: '/assets/images/servicedatawarehouse.jpg',
         title: 'Service Data Warehouse',
         description:
             'The Data Warehouse service is designed to extract data from the integrator and store it into the data warehouse. This service operates at each toll gate and section of the Jasamarga toll roads, ensuring seamless data transfer and centralized storage. By automating data collection and storage, the service enhances operational efficiency, providing accurate and real-time data for analysis and decision-making across the toll road network.',
         createdYear: '2024',
         stacks: [
-            { id: 1, url: '/src/assets/images/python.svg' },
-            { id: 2, url: '/src/assets/images/docker.svg' },
-            { id: 3, url: '/src/assets/images/mysql.svg' },
-            { id: 4, url: '/src/assets/images/postgresql.svg' },
+            { id: 1, url: '/assets/images/python.svg' },
+            { id: 2, url: '/assets/images/docker.svg' },
+            { id: 3, url: '/assets/images/mysql.svg' },
+            { id: 4, url: '/assets/images/postgresql.svg' },
         ],
     },
     {
         id: 4,
         urlProject: '#',
-        imgPath: '/src/assets/images/mpe.png',
+        imgPath: '/assets/images/mpe.png',
         title: 'mitra pratama enginereeng dashboard',
         description:
             'Mitra Pratama Engineering Dashboard is an internal management system designed to handle inventory, stock tracking, and expenditure records. It also supports structured document submissions, helping to improve operational efficiency and transparency within the company.',
         createdYear: '2023',
         stacks: [
-            { id: 1, url: '/src/assets/images/laravel.svg' },
-            { id: 2, url: '/src/assets/images/mysql.svg' },
-            { id: 3, url: '/src/assets/images/bootstrap.svg' },
+            { id: 1, url: '/assets/images/laravel.svg' },
+            { id: 2, url: '/assets/images/mysql.svg' },
+            { id: 3, url: '/assets/images/bootstrap.svg' },
         ],
     },
 ]
@@ -75,21 +75,21 @@ const certificates = [
     {
         id: 1,
         title: 'Dicoding',
-        imgPath: '/src/assets/images/dicoding.png',
+        imgPath: '/assets/images/dicoding.png',
         date: 'Mar 2024',
         description: 'Belajar Back-End Pemula dengan JavaScript.',
     },
     {
         id: 2,
         title: 'Udemy',
-        imgPath: '/src/assets/images/udemy.svg',
+        imgPath: '/assets/images/udemy.svg',
         date: 'Jul 2023',
         description: 'Master Laravel 12 and Vue 3 - Build SPA Application',
     },
     {
         id: 3,
         title: 'Udemy',
-        imgPath: '/src/assets/images/udemy.svg',
+        imgPath: '/assets/images/udemy.svg',
         date: 'Feb 2023',
         description: 'The Ultimate React Course 2025: React, NextJs, Redux & More',
     },
@@ -231,7 +231,7 @@ const certificates = [
     <Section title="Education" v-motion-slide-visible-left>
         <div class="my-10 sm:my-14">
             <img
-                src="/src/assets/images/ubp.png"
+                src="/public/assets/images/ubp.png"
                 alt="certificates logo"
                 class="size-8 bg-cover sm:size-12"
             />
